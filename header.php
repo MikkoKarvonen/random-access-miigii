@@ -11,5 +11,5 @@
     <?php include 'get_episodes.php';?>
 
     <header>
-
+        <h1 class="title">Random Access Miigii</h1>
     </header>

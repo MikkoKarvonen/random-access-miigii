@@ -1,7 +1,6 @@
     <?php include 'header.php';?>
 
     <div id="episodes">
-    
     </div>
     <?php include 'footer.php';?>
 

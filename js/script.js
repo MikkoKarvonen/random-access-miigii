@@ -1,4 +1,4 @@
-$.each(episodes, function (k, v) {
+/*$.each(episodes, function (k, v) {
     if(k == 0){
         $('#episodes').append(
             '<div>' +
@@ -11,4 +11,8 @@ $.each(episodes, function (k, v) {
             '</div>'
         );
     }
+});*/
+
+$.each(episodeImages, function (k, v) {
+    $('#episodes').append('<img src='+v+' class="episodeCover">');
 });

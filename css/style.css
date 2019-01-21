@@ -15,21 +15,49 @@ body, html{
 }
 
 header{
-    background: #ffd556;
     text-transform: uppercase;
     font-family: headerFont;
     padding: 25px 0;
     z-index: 999;
+    margin-bottom: 15px;
+}
+
+header, footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background: #ffd556;
+}
+
+footer{
+    margin-top: 15px;
+    padding: 0;
 }
 
 #episodes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 15px;
+    background: #ffd556;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img{
+    position: absolute;
+    width: 50px;
 }
 
 .coverContainer{

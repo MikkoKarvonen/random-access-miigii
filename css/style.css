@@ -11,6 +11,7 @@ body{
 
 body, html{
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
@@ -44,13 +45,14 @@ header{
     display: none;
 }
 
-.coverHover h2{
+.coverHover p{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     align-items: center;
     color: #fff;
+    font-size: 22px;
 }
 
 .coverHover, .episodeExpanded h2{
@@ -74,6 +76,10 @@ header{
 
 .episodeExpanded .episodeInfo{
     padding: 5px;
+}
+
+.episodeHeader{
+    font-size: 20px;
 }
 
 .title{
